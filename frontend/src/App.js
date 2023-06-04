@@ -1,24 +1,20 @@
-import React, { useEffect } from 'react'
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import React from "react";
 
-
-const App = () => {
-  const time = () => setTimeout(() => {
-    console.log("hi");
-  }, 10000) 
-  
-  const r = () => {
-    alert("")
-  }
-
-  useEffect(() => {
-    r();
-  }, [time()])
-
+function App() {
 
   return (
-    <div>
-      App
-    </div>
+    <>
+      <Header />
+      <main className="'py-3">
+        <Container>
+          <h1>Welcome to Tech shop</h1>
+        </Container>
+      </main>
+      <Footer />
+    </>
   )
 }
 
