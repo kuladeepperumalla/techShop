@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './assets/styles/index.css';
+import './assets/styles/bootstrap.custom.css';
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -10,12 +12,15 @@ import {
 import './index.css';
 import App from './App';
 import HomeScreens from './screens/HomeScreens';
+import ProductScreen from './screens/ProductScreen';
 import reportWebVitals from './reportWebVitals';
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>} >
       <Route path='/' index={true} element={<HomeScreens />} />
+      <Route path='product/:id'  element={<ProductScreen />} />
     </Route>
   )
 )
