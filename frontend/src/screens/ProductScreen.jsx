@@ -1,5 +1,5 @@
-import React from "react"
-import { Col, Row, Image, ListGroup, Card, Button, ListGroupItem} from "react-bootstrap"
+import React, {useState} from "react"
+import { Col, Row, Image, ListGroup, Card, Button, ListGroupItem, Form} from "react-bootstrap"
 import { useGetProductDetailsQuery } from "../slices/productApiSclice"
 import { Link, useParams } from "react-router-dom";
 import Loader from "../components/Loader";
@@ -11,6 +11,7 @@ const ProductScreen = () => {
 
     const {id: productId} = useParams();
 
+    const [qty, setQty] = useState(1)
     const {data:product, isLoading, error} = useGetProductDetailsQuery(productId);
 
     return (
@@ -58,9 +59,30 @@ const ProductScreen = () => {
                                     <Col>{product.countInStock ? 'In Stock' : 'Out Of Stock'}</Col>
                                 </Row>
                             </ListGroupItem>
+
+                            {
+                                product.countInStock > 0 && (
+                                <ListGroup.Item>
+                                    <Row>
+                                        <Col>Qty</Col>
+                                        <Col>
+                                        <Form.Control
+                                        as={'select'}
+                                        value={qty}
+                                        onChange={(e) => setQty(Number(e.target.value))}
+                                        >
+                                            
+                                        </Form.Control>
+                                        </Col>
+                                    </Row>
+                                </ListGroup.Item>)
+                            }
+                            
                             <ListGroupItem>
                                 <Button
-                                    className="btn btn"
+                                    className="btn-block"
+                                    type="button"
+                                    disabled={product.countInStock === 0}
                                 >
                                     Add To Cart
                                 </Button>
