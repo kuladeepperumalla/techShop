@@ -35,3 +35,7 @@ const logoutUser = asyncHandler(async (req, res) => {
 const getUserProfile = asyncHandler(async (req, res) => {
     res.send('auth user')
 })
+
+const deleteUserProfile = asyncHandler(async (req, res) => {
+    res.send('auth user')
+})
