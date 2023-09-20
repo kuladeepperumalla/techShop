@@ -1,9 +1,12 @@
+import React from 'react';
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import React from "react";
 // import HomeScreens from "./screens/HomeScreens";
 import { Outlet } from "react-router";
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -16,6 +19,7 @@ function App() {
         </Container>
       </main>
       <Footer />
+      <ToastContainer />
     </>
   )
 }
