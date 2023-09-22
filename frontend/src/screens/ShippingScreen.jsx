@@ -30,7 +30,7 @@ function ShippingScreen() {
 
   return (
     <FormContainer>
-        <CheckoutSteps step1 />
+          <CheckoutSteps step1 step2 />
         <h1>
             Shipping
         </h1>
