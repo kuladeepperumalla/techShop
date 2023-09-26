@@ -3,10 +3,11 @@ import Product from "../models/productModel.js";
 
 
 /**
-@description: Fetch all products.
+@description Fetch all products.
 @route: GET /api/products
-@access: public
+@access public
  */
+
 const getProducts = asyncHandler(async (req, res) => {
         const products = await Product.find({})
         res.json(products)
