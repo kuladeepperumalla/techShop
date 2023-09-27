@@ -14,7 +14,7 @@ import {
 import { HelmetProvider } from 'react-helmet-async';
 import PrivateRoute from './components/PrivateRoute';
 import AdminRoute from './components/AdminRoute';
-import HomeScreen from './screens/HomeScreens';
+import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import LoginScreen from './screens/LoginScreen';
@@ -69,7 +69,7 @@ const router = createBrowserRouter(
       </Route>
     </Route>
   )
-)
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

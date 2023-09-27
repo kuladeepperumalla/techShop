@@ -9,7 +9,7 @@ import {
   useGetProductsQuery,
   useDeleteProductMutation,
   useCreateProductMutation,
-} from '../../slices/productApiSclice';
+} from '../../slices/productsApiSlice';
 import { toast } from 'react-toastify';
 
 const ProductListScreen = () => {

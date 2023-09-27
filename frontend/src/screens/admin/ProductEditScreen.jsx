@@ -9,7 +9,7 @@ import {
   useGetProductDetailsQuery,
   useUpdateProductMutation,
   useUploadProductImageMutation,
-} from '../../slices/productApiSclice';
+} from '../../slices/productsApiSlice';
 
 const ProductEditScreen = () => {
   const { id: productId } = useParams();
