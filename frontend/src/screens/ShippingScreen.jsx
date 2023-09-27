@@ -25,7 +25,7 @@ function ShippingScreen() {
             postalcode,
             country
         }));
-        navigate('/payments')
+        navigate('/payment')
     }
 
   return (
