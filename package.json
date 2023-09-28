@@ -1,8 +1,8 @@
 {
-  "name": "techshop",
-  "version": "1.0.0",
+  "name": "proshop2",
+  "version": "2.0.0",
   "type": "module",
-  "description": "eCommerce application built with MERN",
+  "description": "Ecommerce application built with the MERN stack",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -11,15 +11,10 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "generate-toc": "markdown-toc -i readme.md"
   },
-  "keywords": [
-    "Backend",
-    "for",
-    "techshop"
-  ],
-  "author": "kuladeep perumalla",
+  "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -33,9 +28,8 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "concurrently": "^7.6.0",
     "markdown-toc": "^1.2.0",
-    "concurrently": "^8.2.1",
-   
     "nodemon": "^2.0.21"
   }
 }
