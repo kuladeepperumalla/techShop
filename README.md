@@ -13,7 +13,7 @@ Please click here -> [Demo](https://techshop-7c9e.onrender.com/)
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Build Process](#build-process)
+- [Build Process](#run-locally)
 - [Developer](#Developer)
 
 
@@ -138,12 +138,18 @@ kuldeepperumalla@email.com
 123123
 ```
 ---
+### Techstack
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![JSON](https://img.shields.io/badge/JSON-gray?style=for-the-badge&logo=json&logoColor=yellow)
+![React](https://img.shields.io/badge/React-%231572B6.svg?style=for-the-badge&logo=React&logoColor=%white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![JSON](https://img.shields.io/badge/JSON-%23323330.svg?style=for-the-badge&logo=json&logoColor=yellow)
+![JWT](https://img.shields.io/badge/JWT-black.svg?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=yellow)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%11000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 
