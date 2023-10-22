@@ -14,6 +14,7 @@ Please click here -> [Demo](https://techshop-7c9e.onrender.com/)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Build Process](#run-locally)
+- [Techstack](#techstack)
 - [Developer](#Developer)
 
 
@@ -27,17 +28,15 @@ Please click here -> [Demo](https://techshop-7c9e.onrender.com/)
 - Used accordions to expand the data on click and add photos inside the expandable pannels
 - Users, Albums, Photos can be Added and Deleted
 - isLoading and isError used all accross the application to handle exceptions in case of bad server or 404 responses from the API
-- Look into [features](#Features) for code snippets and more understanding.  
+- Look more in [features](#Features).  
 <img src="./public/images/intro.gif">
 ****
 
 ## Features
 
 > A few of the things you can do with Photo Albums App:
-> - Add/Delete Users by clicking button
-> - Add/Delete albums
-> - Add/Delete phhotos
-- Full featured shopping cart
+- Login/Signup (profile settings - update user-name/password)
+- Fully featured shopping cart
 - Product reviews and ratings
 - Top products carousel
 - Product pagination
@@ -140,8 +139,7 @@ kuldeepperumalla@email.com
 ---
 ### Techstack
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/React-%231572B6.svg?style=for-the-badge&logo=React&logoColor=%white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![React](https://img.shields.io/badge/React-%231572B6.svg?style=for-the-badge&logo=React&logoColor=%white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![JSON](https://img.shields.io/badge/JSON-%23323330.svg?style=for-the-badge&logo=json&logoColor=yellow)
@@ -149,7 +147,7 @@ kuldeepperumalla@email.com
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%11000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 
